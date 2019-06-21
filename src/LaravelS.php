@@ -24,7 +24,6 @@ use Swoole\WebSocket\Server as WebSocketServer;
 use Symfony\Component\Console\Style\OutputStyle;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
-
 /**
  * Swoole Request => Laravel Request
  * Laravel Request => Laravel handle => Laravel Response
