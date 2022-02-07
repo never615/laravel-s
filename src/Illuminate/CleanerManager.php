@@ -29,7 +29,7 @@ class CleanerManager
      * @var CleanerInterface[]
      */
     protected $cleaners = [
-        ContainerCleaner::class,
+        //ContainerCleaner::class,
         ConfigCleaner::class,
         CookieCleaner::class,
         RequestCleaner::class,
