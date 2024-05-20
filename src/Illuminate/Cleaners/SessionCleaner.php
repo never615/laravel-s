@@ -36,8 +36,11 @@ class SessionCleaner extends BaseCleaner
 
         if (isset($this->currentApp['redirect'])) {
             /**@var Redirector $redirect */
-            $redirect = $this->currentApp['redirect'];
-            $redirect->setSession($this->currentApp->make('session.store'));
+//            $redirect = $this->currentApp['redirect'];
+//            $redirect->setSession($this->currentApp->make('session.store'));
+            $this->currentApp->forgetInstance('redirect');
+            Facade::clearResolvedInstance('redirect');
+
         }
     }
 }

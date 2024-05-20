@@ -6,7 +6,7 @@
     "issues": "https://github.com/hhxsv5/laravel-s/issues",
     "source": "https://github.com/hhxsv5/laravel-s"
   },
-  "description": "🚀 LaravelS is an out-of-the-box adapter between Swoole and Laravel/Lumen.",
+  "description": "🚀 LaravelS is an out-of-the-box adapter between Laravel/Lumen and Swoole.",
   "keywords": [
     "laravels",
     "laravel-s",
@@ -34,12 +34,12 @@
     }
   ],
   "require": {
-    "php": ">=5.5.9",
+    "php": ">=8.2",
     "ext-curl": "*",
     "ext-json": "*",
     "ext-pcntl": "*",
     "swoole/ide-helper": "@dev",
-    "symfony/console": ">=2.7.0"
+    "symfony/console": ">=7.0.0"
   },
   "suggest": {
     "ext-swoole": "Coroutine-based concurrency library for PHP, require >= 1.7.19.",
